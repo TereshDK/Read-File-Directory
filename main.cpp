@@ -14,7 +14,7 @@ int main()
     std::vector<std::string> objectList;
     std::vector<std::string> objectPaths;
 
-    const char* p_path = "C:\\Users\\apoll\\OneDrive\\repos\\glproc\\models";
+    const char* p_path = "C:\\Users\\apoll\\OneDrive\\repos\\glproc\\models\\";
 
     for (const fs::directory_entry& _entry : fs::directory_iterator(p_path)) 
     {
